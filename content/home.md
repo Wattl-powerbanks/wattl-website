@@ -45,33 +45,7 @@
 
 ---
 
-## Section 3: Testimonials / Social Proof
-
-- **Layout:** Two-column — text + stats on left, testimonial cards stacked on right. White background.
-- **Heading:** Saved by *Wattl.* (Wattl. in bold black, period in yellow)
-- **Subtext:** Real stories from those who stayed connected thanks to our stations. When the battery drops, we bring the energy
-
-### Stats
-- **5+** LOCATIONS
-- **200+** PHONES SAVED
-
-### Testimonial Cards (yellow #ffd400 background, stacked vertically on right)
-
-1. > "My phone died right before the headliner at Glastonbury. Wattl literally saved my night. Found a station in seconds, grabbed a bank, and captured the entire finale."
-   - **Name:** Sarah Chen
-   - **Location:** Knockout 2025
-
-2. > "The fast charging is no joke. 15 minutes anxiety around my dead phone vanished. It's not just a convenience; it's essential hospitality gear now."
-   - **Name:** Ash Berry
-   - **Location:** Burwood RSL
-
-3. > "Lost my group, phone dead, panic setting in. The Wattl station was a beacon in the dark. Charged up, found my friends, and turned a disaster into the best night ever."
-   - **Name:** Phillip Keynes
-   - **Location:** GYG Restaurant
-
----
-
-## Section 4: App Download CTA
+## Section 3: App Download CTA
 
 - **Layout:** Centered text, dark/black background
 - **Tag:** INSTANT ENERGY

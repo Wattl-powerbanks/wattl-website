@@ -40,9 +40,9 @@ const benefits = [
     color: "#F4722B",
   },
   {
-    emoji: "♾️",
-    title: "0 Cost, Ever",
-    description: "No surprise fees, and we handle maintenance.",
+    emoji: "🏪",
+    title: "No Upfront Costs",
+    description: "No surprise fees, ever.",
     color: "#003CA7",
   },
 ];
@@ -92,7 +92,9 @@ export default function PartnerWithUsPage() {
               <em className="not-italic text-brand-black">Passive Income.</em>
             </h1>
             <p className="mx-auto max-w-lg text-lg text-brand-black/70" style={{ fontWeight: 700 }}>
-              Host a Wattl station at your venue. Zero cost, zero maintenance, passive revenue.
+              Host a Wattl station at your venue.
+              <br />
+              Passive revenue, simple.
             </p>
           </div>
 
@@ -101,11 +103,11 @@ export default function PartnerWithUsPage() {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
-            className="grid gap-4 sm:grid-cols-2 md:grid-cols-3"
+            className="grid auto-rows-fr gap-4 sm:grid-cols-2 md:grid-cols-3"
           >
             {benefits.map((benefit, i) => (
-              <motion.div key={benefit.title} variants={cardVariants}>
-                <Card className="text-center" shadowColor={shadowColors[i % shadowColors.length]}>
+              <motion.div key={benefit.title} variants={cardVariants} className="h-full">
+                <Card className="h-full text-center" shadowColor={shadowColors[i % shadowColors.length]}>
                   <div
                     className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full border-3 border-brand-black text-2xl"
                     style={{

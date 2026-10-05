@@ -134,7 +134,7 @@ export function HowItWorks() {
         </div>
       </section>
       <div className="relative z-0">
-        <SquigglyDivider color="#FFC600" bg="#FFFFF3" />
+        <SquigglyDivider color="#FFC600" bg="#38AAD4" />
       </div>
     </>
   );

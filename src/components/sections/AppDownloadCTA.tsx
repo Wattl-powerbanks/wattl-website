@@ -3,12 +3,10 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { AppStoreBadges } from "@/components/ui/AppStoreBadges";
-import { SquigglyDivider } from "@/components/ui/SquigglyDivider";
 
 export function AppDownloadCTA() {
   return (
     <>
-      <SquigglyDivider color="#1A1A1A" bg="#38AAD4" />
       <section className="bg-brand-teal py-16 md:py-24">
         <div className="relative mx-auto max-w-[1200px] px-4 text-center md:px-6">
 {/* Cockatoo decoration (bottom-right, larger) */}

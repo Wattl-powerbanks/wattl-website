@@ -31,9 +31,9 @@
    - Icon: QR code / grid icon
    - Description: Provide a modern amenity, and build loyalty
 
-6. **0 Cost, Ever**
-   - Icon: Infinity / link icon
-   - Description: No surprise fees, and we handle maintenance
+6. **No Upfront Costs**
+   - Icon: Shop / storefront icon
+   - Description: No surprise fees, ever
 
 ---
 
