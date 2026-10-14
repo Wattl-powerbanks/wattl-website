@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Lilita_One, Nunito, JetBrains_Mono } from "next/font/google";
+import { Bricolage_Grotesque, Lilita_One, Nunito, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
@@ -15,6 +15,13 @@ const nunito = Nunito({
   variable: "--font-nunito",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800", "900"],
+  display: "swap",
+});
+
+const bricolageGrotesque = Bricolage_Grotesque({
+  variable: "--font-bricolage",
+  subsets: ["latin"],
+  axes: ["opsz"],
   display: "swap",
 });
 
@@ -108,7 +115,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${lilitaOne.variable} ${nunito.variable} ${jetbrainsMono.variable} antialiased`}
+        className={`${lilitaOne.variable} ${nunito.variable} ${bricolageGrotesque.variable} ${jetbrainsMono.variable} antialiased`}
       >
         <Navbar />
         <main>{children}</main>
