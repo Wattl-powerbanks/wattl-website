@@ -26,7 +26,7 @@ const steps = [
     num: 3,
     title: "Stay Powered Up",
     description:
-      "High-speed charging at up to 10W output. Most phones get a meaningful boost in just 15–20 minutes.",
+      "High-speed charging fast-charges any phone at 20W, as fast as an Apple charger.",
     color: "#208334",
   },
   {
@@ -34,7 +34,7 @@ const steps = [
     num: 4,
     title: "Return Anywhere",
     description:
-      "Done charging? Drop the power bank at any station in our network. Simple half-hourly pricing, capped at $20/day.",
+      "Done charging? Drop the power bank at any station in our network. Pay as you go, capped at $39/day.",
     color: "#F4722B",
   },
 ];

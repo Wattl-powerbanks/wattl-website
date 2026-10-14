@@ -14,12 +14,12 @@ const faqItems = [
   {
     question: "How is the rental pricing calculated?",
     answer:
-      "We charge a simple half-hourly rate of $2. If you hold onto the power bank for a longer period, you will simply reach our daily maximum cap of $20 for that 24-hour period.",
+      "It's pay as you go: we charge $1 per 10 minutes, so a 30-minute charge costs $3. If you hold onto the power bank for longer, you'll never pay more than our daily cap of $39 for that 24-hour period.",
   },
   {
     question: "What happens if I lose the power bank?",
     answer:
-      'If the power bank is not returned within 36 hours, the system marks it as "purchased." You will be charged the full device fee of $50, and the power bank is yours to keep.',
+      'If the power bank is not returned within 36 hours, the system marks it as "purchased." You will be charged the full device fee of $39, and the power bank is yours to keep.',
   },
   {
     question: "Can I return the power bank to a different station?",
@@ -34,7 +34,7 @@ const faqItems = [
   {
     question: "How fast do the power banks charge?",
     answer:
-      "Our power banks deliver fast charging at up to 10W output. Most phones get a meaningful boost in just 15-20 minutes, enough to get you through the rest of your night.",
+      "Our power banks fast-charge any phone at 20W, as fast as an Apple charger. Most phones get a meaningful boost in just 15-20 minutes, enough to get you through the rest of your night.",
   },
   {
     question: "What if the station is full when I try to return it?",
@@ -109,6 +109,13 @@ export default function ContactUsPage() {
                 className="font-heading text-2xl font-bold text-brand-yellow transition-colors hover:text-brand-yellow/80"
               >
                 0423 234 799
+              </a>
+              <p className="mt-4 mb-2 text-sm text-white/70" style={{ fontWeight: 700 }}>Or email us at:</p>
+              <a
+                href="mailto:info@wattl.io"
+                className="font-heading text-2xl font-bold text-brand-yellow transition-colors hover:text-brand-yellow/80"
+              >
+                info@wattl.io
               </a>
               {/* Parrot decoration */}
               <div className="pointer-events-none mt-8" aria-hidden="true">
