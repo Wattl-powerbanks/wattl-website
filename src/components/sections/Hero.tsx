@@ -134,20 +134,15 @@ export function Hero() {
             </span>
           </motion.div>
 
-          <motion.p
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="mb-10 max-w-[560px] text-[clamp(18px,3vw,26px)] font-[800] leading-[1.4] text-white"
-            style={{
-              WebkitTextStroke: "1.5px #1A1A1A",
-              paintOrder: "stroke fill",
-              textShadow: "3px 3px 0 #003CA7",
-            }}
+            className="mb-10 max-w-[560px] font-[family-name:var(--font-nunito)] text-[clamp(18px,3vw,26px)] font-[800] leading-[1.45] text-brand-black"
           >
             Portable powerbank rentals for venues across Australia. Keep your
             customers charged &amp; happy.
-          </motion.p>
+          </motion.h1>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
