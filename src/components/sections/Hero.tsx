@@ -126,23 +126,16 @@ export function Hero() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.15 }}
-            className="mb-7"
-          >
-            <span className="inline-block rounded-md bg-brand-black px-7 py-1.5 text-[clamp(14px,3vw,22px)] font-[900] uppercase tracking-[4px] text-white">
-              Fast Charging
-            </span>
-          </motion.div>
-
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="mb-10 max-w-[560px] font-[family-name:var(--font-nunito)] text-[clamp(18px,3vw,26px)] font-[800] leading-[1.45] text-brand-black"
+            className="mt-6 mb-10 w-full max-w-[600px] rounded-[20px] border-3 border-[#141414] bg-[#FFF6DF] px-6 py-[22px] text-center font-[family-name:var(--font-bricolage)] shadow-[5px_5px_0_#0B3B8F] min-[480px]:px-10 min-[480px]:py-[30px] min-[480px]:shadow-[7px_7px_0_#0B3B8F]"
           >
-            Portable powerbank rentals for venues across Australia. Keep your
-            customers charged &amp; happy.
-          </motion.h1>
+            <h1 className="text-[clamp(22px,2.6vw,31px)] font-[650] leading-[1.22] tracking-[-0.01em] text-balance text-[#141414]">
+              Portable powerbank rentals for venues across Australia.
+            </h1>
+            <p className="mt-2.5 text-[clamp(17px,1.8vw,22px)] font-[500] leading-[1.35] text-balance text-[#3D3A33]">
+              Keep your customers charged &amp; happy.
+            </p>
+          </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -151,10 +144,10 @@ export function Hero() {
             className="flex flex-wrap items-center justify-center gap-4"
           >
             <Link href="/partner-with-us">
-              <Button variant="dark">Get a kiosk</Button>
+              <Button variant="dark" className="font-[family-name:var(--font-bricolage)] font-[700]">Get a kiosk</Button>
             </Link>
             <Link href="/#how-it-works">
-              <Button variant="secondary" className="bg-brand-cream">How It Works</Button>
+              <Button variant="secondary" className="bg-brand-cream font-[family-name:var(--font-bricolage)] font-[700]">How It Works</Button>
             </Link>
           </motion.div>
         </div>
