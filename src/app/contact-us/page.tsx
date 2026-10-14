@@ -14,7 +14,7 @@ const faqItems = [
   {
     question: "How is the rental pricing calculated?",
     answer:
-      "It's pay as you go: we charge $1 per 10 minutes, so a 35-minute charge costs $3. If you hold onto the power bank for longer, you'll never pay more than our daily cap of $39 for that 24-hour period.",
+      "It's pay as you go: we charge $1 per 10 minutes, so a 30-minute charge costs $3. If you hold onto the power bank for longer, you'll never pay more than our daily cap of $39 for that 24-hour period.",
   },
   {
     question: "What happens if I lose the power bank?",
