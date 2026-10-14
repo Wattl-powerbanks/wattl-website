@@ -127,7 +127,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="mt-6 mb-10 w-full max-w-[600px] rounded-[20px] border-3 border-[#141414] bg-[#FFF6DF] px-6 py-[22px] text-center font-[family-name:var(--font-bricolage)] shadow-[5px_5px_0_#0B3B8F] min-[480px]:px-10 min-[480px]:py-[30px] min-[480px]:shadow-[7px_7px_0_#0B3B8F]"
+            className="mt-6 mb-10 w-full max-w-[600px] rounded-[20px] border-3 border-[#141414] bg-[#FFF6DF] px-6 py-[22px] text-center font-[family-name:var(--font-bricolage)] shadow-[5px_5px_0_#003CA7] min-[480px]:px-10 min-[480px]:py-[30px] min-[480px]:shadow-[7px_7px_0_#003CA7]"
           >
             <h1 className="text-[clamp(22px,2.6vw,31px)] font-[650] leading-[1.22] tracking-[-0.01em] text-balance text-[#141414]">
               Portable powerbank rentals for venues across Australia.
