@@ -3,38 +3,31 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { SquigglyDivider } from "@/components/ui/SquigglyDivider";
+import { FloraIcon, type Flora } from "@/components/ui/FloraIcon";
 
-const steps = [
+const steps: { flora: Flora; num: number; title: string; description: string; color: string }[] = [
   {
-    emoji: "📱",
+    flora: "cockatoo",
     num: 1,
-    title: "Scan the QR Code",
+    title: "Scan & Pay",
     description:
-      "Walk up to any Wattl station and scan the QR code. No app download required, just your phone camera.",
+      "Scan the QR code on any Wattl station with your phone camera, then tap Apple Pay or Google Pay. No app, no sign-up.",
     color: "#FFC600",
   },
   {
-    emoji: "🔋",
+    flora: "wattle",
     num: 2,
     title: "Grab & Charge",
     description:
-      "A power bank pops out instantly. It comes with built-in Lightning, USB-C, and Micro-USB cables.",
+      "A power bank pops out with Lightning, USB-C and Micro-USB cables built in. Keep it with you while you enjoy your night.",
     color: "#38AAD4",
   },
   {
-    emoji: "⚡",
+    flora: "kangaroo",
     num: 3,
-    title: "Stay Powered Up",
+    title: "Drop It at Any Wattl Venue",
     description:
-      "High-speed charging fast-charges any phone at 20W, as fast as an Apple charger.",
-    color: "#208334",
-  },
-  {
-    emoji: "🔄",
-    num: 4,
-    title: "Return Anywhere",
-    description:
-      "Done charging? Drop the power bank at any station in our network. Pay as you go, capped at $39/day.",
+      "Done? Pop it back into any Wattl station, here or at the next bar. You only pay for the time you had it.",
     color: "#F4722B",
   },
 ];
@@ -77,7 +70,7 @@ export function HowItWorks() {
               How It Works<span className="text-brand-yellow">?</span>
             </h2>
             <p className="mx-auto max-w-xl text-white/80">
-              Four simple steps to keep your customers connected.
+              Three steps. No app, no deposit.
             </p>
           </div>
 
@@ -93,15 +86,7 @@ export function HowItWorks() {
               <motion.div key={step.num} variants={stepVariants} className="w-full">
                 <div className="flex items-start gap-5">
                   {/* Icon circle */}
-                  <div
-                    className="flex h-[70px] w-[70px] shrink-0 items-center justify-center rounded-full border-3 border-brand-black text-[32px]"
-                    style={{
-                      backgroundColor: step.color,
-                      boxShadow: "4px 4px 0 #1A1A1A",
-                    }}
-                  >
-                    {step.emoji}
-                  </div>
+                  <FloraIcon name={step.flora} color={step.color} className="h-[70px] w-[70px]" />
 
                   {/* Content card */}
                   <div
@@ -134,7 +119,7 @@ export function HowItWorks() {
         </div>
       </section>
       <div className="relative z-0">
-        <SquigglyDivider color="#FFC600" bg="#38AAD4" />
+        <SquigglyDivider color="#1A1A1A" bg="#FFC600" />
       </div>
     </>
   );

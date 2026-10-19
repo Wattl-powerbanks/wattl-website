@@ -32,8 +32,8 @@ export function AppDownloadCTA() {
             </h2>
 
             <p className="mx-auto mb-12 max-w-md text-white/70" style={{ fontWeight: 700 }}>
-              Download Wattl. to find stations near you and grab a power bank
-              in seconds. Stay charged, stay connected.
+              You don&apos;t need the app to rent. It&apos;s there if you want
+              to find venues and keep track of your rentals.
             </p>
 
             {/* Official app store badges */}

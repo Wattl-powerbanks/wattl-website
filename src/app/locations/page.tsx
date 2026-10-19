@@ -3,17 +3,19 @@ import Image from "next/image";
 import { MapPin } from "lucide-react";
 import { SquigglyDivider } from "@/components/ui/SquigglyDivider";
 import { SuggestLocationForm } from "@/components/forms/SuggestLocationForm";
+import { VenueCard } from "@/components/ui/VenueCard";
+import { liveVenues } from "@/lib/venues";
 
 export const metadata: Metadata = {
   title: "Locations",
   description:
-    "Find Wattl power bank rental stations near you. Locations coming soon across Australia.",
+    "Find a Wattl power bank station near you. Live now at the Newtown Hotel and Botany View Hotel in Newtown, Sydney.",
 };
 
 export default function LocationsPage() {
   return (
     <>
-      {/* Hero - Coming Soon */}
+      {/* Hero - Live venues */}
       <section className="relative min-h-screen flex items-center overflow-hidden bg-brand-yellow text-center">
         {/* Floating map pin decorations */}
         <div className="pointer-events-none absolute top-16 left-[15%] opacity-25">
@@ -26,8 +28,7 @@ export default function LocationsPage() {
           <MapPin className="h-12 w-12 text-brand-blue" />
         </div>
 
-        <div className="mx-auto max-w-[1200px] px-4 py-24 md:px-6">
-          <MapPin className="mx-auto mb-8 h-24 w-24 text-brand-blue md:h-32 md:w-32" />
+        <div className="relative mx-auto w-full max-w-[900px] px-4 py-28 md:px-6">
           <h1
             className="mb-6 font-heading text-brand-blue"
             style={{
@@ -35,10 +36,19 @@ export default function LocationsPage() {
               textShadow: "4px 4px 0 rgba(26, 26, 26, 0.12)",
             }}
           >
-            Locations coming soon :)
+            Where to find Wattl.
           </h1>
-          <p className="mx-auto max-w-lg text-xl text-brand-black/70" style={{ fontWeight: 700 }}>
-            We&apos;re rolling out across Australia. Stay tuned!
+          <p className="mx-auto mb-12 max-w-lg text-xl text-brand-black/70" style={{ fontWeight: 700 }}>
+            Rent at any of these venues and return it at any other. No app
+            needed, just scan the QR on the station.
+          </p>
+          <div className="grid gap-5 sm:grid-cols-2">
+            {liveVenues.map((venue) => (
+              <VenueCard key={venue.name} venue={venue} />
+            ))}
+          </div>
+          <p className="mt-10 text-lg text-brand-black/70" style={{ fontWeight: 700 }}>
+            More Inner West venues coming soon.
           </p>
         </div>
       </section>
