@@ -14,17 +14,17 @@ const faqItems = [
   {
     question: "How is the rental pricing calculated?",
     answer:
-      "It's pay as you go: we charge $1 per 10 minutes, so a 30-minute charge costs $3. If you hold onto the power bank for longer, you'll never pay more than our daily cap of $39 for that 24-hour period.",
+      "It's pay as you go: $1 per 10 minutes, so a 30-minute charge costs $3. There's no $50 deposit, and you'll never pay more than $20 for any 24-hour period.",
   },
   {
     question: "What happens if I lose the power bank?",
     answer:
-      'If the power bank is not returned within 36 hours, the system marks it as "purchased." You will be charged the full device fee of $39, and the power bank is yours to keep.',
+      "No stress. If it isn't returned within 48 hours, it's $49 all up (including your rental time) and the power bank is yours to keep.",
   },
   {
     question: "Can I return the power bank to a different station?",
     answer:
-      "Yes! You can rent a power bank from one venue and return it to any other station in our network. Use the app to find the nearest available return slot.",
+      "Yes! You can rent a power bank from one venue and return it to any other Wattl venue. Check the Locations page for the full list.",
   },
   {
     question: "What cables are attached?",
@@ -39,7 +39,7 @@ const faqItems = [
   {
     question: "What if the station is full when I try to return it?",
     answer:
-      "If a station has no empty slots, simply use the app to find the nearest station with availability. You won't be charged extra while you make your way to another return point.",
+      "If a station has no empty slots, check the Locations page for the nearest other Wattl venue. You won't be charged extra while you make your way to another return point.",
   },
 ];
 

@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     template: "%s | Wattl.",
   },
   description:
-    "Australia's first dedicated power bank rental network. Grab a charger, stay connected, return it when you're done.",
+    "Sydney's locally owned powerbank network. $1 per 10 minutes, no $50 deposit, and you can return it at any Wattl venue.",
   keywords: [
     "power bank rental",
     "portable charger",
@@ -65,13 +65,13 @@ export const metadata: Metadata = {
     siteName: "Wattl.",
     title: "Wattl. | Portable Power Bank Rentals",
     description:
-      "Australia's first dedicated power bank rental network. Grab a charger, stay connected, return it when you're done.",
+      "Sydney's locally owned powerbank network. $1 per 10 minutes, no $50 deposit, and you can return it at any Wattl venue.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Wattl. | Portable Power Bank Rentals",
     description:
-      "Australia's first dedicated power bank rental network. Grab a charger, stay connected, return it when you're done.",
+      "Sydney's locally owned powerbank network. $1 per 10 minutes, no $50 deposit, and you can return it at any Wattl venue.",
   },
   verification: {
     // google: "your-google-verification-code",
@@ -84,7 +84,7 @@ const jsonLd = {
   name: "Wattl Charging PTY LTD",
   url: "https://wattl.io",
   description:
-    "Australia's first dedicated power bank rental network.",
+    "Sydney's locally owned powerbank network.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "164 Blaxcell Street",

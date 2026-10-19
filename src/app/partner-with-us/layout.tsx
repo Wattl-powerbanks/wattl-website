@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Partner With Us",
   description:
-    "Host a Wattl power bank station at your venue. Passive revenue, simple. Request a station today.",
+    "Get a free Wattl power bank station for your pub or bar. No cost, no maintenance, no risk, and you keep a cut of every rental.",
   alternates: {
     canonical: "https://wattl.io/partner-with-us",
   },

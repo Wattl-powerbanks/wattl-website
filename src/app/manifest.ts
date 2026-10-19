@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Wattl. | Portable Power Bank Rentals",
     short_name: "Wattl",
     description:
-      "Australia's first dedicated power bank rental network. Grab a charger, stay connected, return it when you're done.",
+      "Sydney's locally owned powerbank network. $1 per 10 minutes, no $50 deposit, and you can return it at any Wattl venue.",
     start_url: "/",
     display: "standalone",
     background_color: "#FCE79E",

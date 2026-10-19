@@ -130,10 +130,10 @@ export function Hero() {
             className="mt-6 mb-10 w-full max-w-[600px] rounded-[20px] border-3 border-[#141414] bg-[#FFF6DF] px-6 py-[22px] text-center font-[family-name:var(--font-bricolage)] shadow-[5px_5px_0_#003CA7] min-[480px]:px-10 min-[480px]:py-[30px] min-[480px]:shadow-[7px_7px_0_#003CA7]"
           >
             <h1 className="text-[clamp(22px,2.6vw,31px)] font-[650] leading-[1.22] tracking-[-0.01em] text-balance text-[#141414]">
-              Portable powerbank rentals for venues across Australia.
+              Flat phone? Grab a Wattl.
             </h1>
             <p className="mt-2.5 text-[clamp(17px,1.8vw,22px)] font-[500] leading-[1.35] text-balance text-[#3D3A33]">
-              Keep your customers charged &amp; happy.
+              Portable powerbank rentals for venues across Australia.
             </p>
           </motion.div>
 
@@ -143,8 +143,8 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-wrap items-center justify-center gap-4"
           >
-            <Link href="/partner-with-us">
-              <Button variant="dark" className="font-[family-name:var(--font-bricolage)] font-[700]">Get a kiosk</Button>
+            <Link href="/locations">
+              <Button variant="dark" className="font-[family-name:var(--font-bricolage)] font-[700]">Find a Wattl venue</Button>
             </Link>
             <Link href="/#how-it-works">
               <Button variant="secondary" className="bg-brand-cream font-[family-name:var(--font-bricolage)] font-[700]">How It Works</Button>
@@ -152,7 +152,7 @@ export function Hero() {
           </motion.div>
         </div>
       </section>
-      <SquigglyDivider color="#1A1A1A" bg="#003CA7" />
+      <SquigglyDivider color="#1A1A1A" bg="#FFF8E1" />
     </>
   );
 }
