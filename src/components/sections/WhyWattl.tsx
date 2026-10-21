@@ -34,9 +34,9 @@ const reasons: { flora: Flora; title: string; description: string; color: string
   },
   {
     flora: "koala",
-    title: "Fair if you forget",
+    title: "Capped at $49",
     description:
-      "Never more than $20 a day. Hang onto it past 48 hours and it's $49 all up, and it's yours to keep.",
+      "$1 every 10 minutes, and you'll never pay more than $49 for a rental. No deposit, no surprises.",
     color: "#F4722B",
   },
   {

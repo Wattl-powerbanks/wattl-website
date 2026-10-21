@@ -4,30 +4,27 @@
 
 - **Layout:** Two-column — heading + description on left, accordion FAQ items on right. Yellow (#ffd400) background.
 - **Heading:** Frequently Asked Questions
-- **Subtext:** Answers about pricing, lost power banks, and charging speeds. We're here to keep you powered up 24/7.
+- **Subtext:** Answers about pricing, lost power banks, and charging speeds. We're here to keep you powered up.
 
 ### FAQ Accordion Items (dark/black background bars with yellow text, expandable)
 
 1. **How is the rental pricing calculated?**
-   - Answer: We charge a simple half-hourly rate of $2. If you hold onto the power bank for a longer period, you will simply reach our daily maximum cap of $20 for that 24-hour period.
+   - Answer: No upfront deposit, ever. You're charged $1 every 10 minutes, so a 30-minute top-up is $3, and the most you'll ever pay is $49.
 
 2. **What happens if I lose the power bank?**
-   - Answer: If the power bank is not returned within 36 hours, the system marks it as "purchased." You will be charged the full device fee of $50, and the power bank is yours to keep.
+   - Answer: No stress. The most you'll ever pay is $49, and at that point the power bank is yours to keep.
 
 3. **Can I return the power bank to a different station?**
-   - Answer: Yes! You can rent a power bank from one venue and return it to any other station in our network. Use the app to find the nearest available return slot.
+   - Answer: Yes! You can rent a power bank from one venue and return it to any other Wattl venue. Check the Locations page for the full list.
 
 4. **What cables are attached?**
-   - Answer: Yes! You can rent a power bank from one venue and return it to any other station in our network. Use the app to find the nearest available return slot.
-   - *(Note: This answer appears to be duplicated from Q3 — likely needs a proper answer about Lightning, USB-C, and Micro-USB cables)*
+   - Answer: Each power bank comes with three built-in cables: Lightning (iPhone), USB-C, and Micro-USB. You're covered no matter what device you carry. No need to bring your own cable.
 
 5. **How fast do the power banks charge?**
-   - Answer: Yes! You can rent a power bank from one venue and return it to any other station in our network. Use the app to find the nearest available return slot.
-   - *(Note: This answer appears to be duplicated from Q3 — likely needs a proper answer about charging speeds)*
+   - Answer: Our power banks fast-charge any phone at 20W, as fast as an Apple charger. Most phones get a meaningful boost in just 15-20 minutes, enough to get you through the rest of your night.
 
 6. **What if the station is full when I try to return it?**
-   - Answer: Yes! You can rent a power bank from one venue and return it to any other station in our network. Use the app to find the nearest available return slot.
-   - *(Note: This answer appears to be duplicated from Q3 — likely needs a proper answer about full stations)*
+   - Answer: If a station has no empty slots, check the Locations page for the nearest other Wattl venue. You won't be charged extra while you make your way to another return point.
 
 ---
 
