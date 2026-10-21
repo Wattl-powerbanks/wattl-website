@@ -14,12 +14,12 @@ const faqItems = [
   {
     question: "How is the rental pricing calculated?",
     answer:
-      "It's pay as you go: $1 per 10 minutes, so a 30-minute charge costs $3. There's no $50 deposit, and you'll never pay more than $20 for any 24-hour period.",
+      "No upfront deposit, ever. You're charged $1 every 10 minutes, so a 30-minute top-up is $3, and the most you'll ever pay is $49.",
   },
   {
     question: "What happens if I lose the power bank?",
     answer:
-      "No stress. If it isn't returned within 48 hours, it's $49 all up (including your rental time) and the power bank is yours to keep.",
+      "No stress. The most you'll ever pay is $49, and at that point the power bank is yours to keep.",
   },
   {
     question: "Can I return the power bank to a different station?",
