@@ -5,14 +5,25 @@ import Image from "next/image";
 import { SquigglyDivider } from "@/components/ui/SquigglyDivider";
 import { FloraIcon, type Flora } from "@/components/ui/FloraIcon";
 
-const steps: { flora: Flora; num: number; title: string; description: string; color: string }[] = [
+const steps: {
+  flora: Flora;
+  num: number;
+  title: string;
+  description: string;
+  color: string;
+  photo: { src: string; alt: string; position?: string };
+}[] = [
   {
     flora: "cockatoo",
     num: 1,
     title: "Scan & Pay",
     description:
-      "Scan the QR code on any Wattl station with your phone camera, then tap Apple Pay or Google Pay. No app, no sign-up.",
+      "Look for the yellow Wattl station. Scan the QR code with your phone camera, then tap Apple Pay or Google Pay. No app, no sign-up.",
     color: "#FFC600",
+    photo: {
+      src: "/images/kit/station.jpg",
+      alt: "Yellow Wattl charging station with a Wattl power bank leaning against it",
+    },
   },
   {
     flora: "wattle",
@@ -21,6 +32,10 @@ const steps: { flora: Flora; num: number; title: string; description: string; co
     description:
       "A power bank pops out with Lightning, USB-C and Micro-USB cables built in. Keep it with you while you enjoy your night.",
     color: "#38AAD4",
+    photo: {
+      src: "/images/kit/power-bank.jpg",
+      alt: "Wattl power bank with a native flora design resting on a phone",
+    },
   },
   {
     flora: "kangaroo",
@@ -29,6 +44,11 @@ const steps: { flora: Flora; num: number; title: string; description: string; co
     description:
       "Done? Pop it back into any Wattl station, here or at the next bar. You only pay for the time you had it.",
     color: "#F4722B",
+    photo: {
+      src: "/images/kit/station-at-the-pub.jpg",
+      alt: "Wattl station on a table in a pub beer garden",
+      position: "object-[85%_50%]",
+    },
   },
 ];
 
@@ -99,9 +119,20 @@ export function HowItWorks() {
                     <h3 className="mb-2 font-heading text-xl text-brand-black">
                       {step.title}
                     </h3>
-                    <p className="text-sm leading-relaxed text-brand-black/70" style={{ fontWeight: 600 }}>
-                      {step.description}
-                    </p>
+                    <div className="flex flex-col gap-4 sm:flex-row sm:items-start">
+                      <p className="flex-1 text-sm leading-relaxed text-brand-black/70" style={{ fontWeight: 600 }}>
+                        {step.description}
+                      </p>
+                      <div className="relative aspect-[4/3] w-full shrink-0 overflow-hidden rounded-xl border-3 border-brand-black sm:aspect-[4/5] sm:w-[160px]">
+                        <Image
+                          src={step.photo.src}
+                          alt={step.photo.alt}
+                          fill
+                          sizes="(min-width: 640px) 160px, 80vw"
+                          className={`object-cover ${step.photo.position ?? ""}`}
+                        />
+                      </div>
+                    </div>
                   </div>
                 </div>
 
