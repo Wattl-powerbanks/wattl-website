@@ -21,9 +21,8 @@ const steps: {
       "Look for the yellow Wattl station. Scan the QR code with your phone camera, then tap Apple Pay or Google Pay. No app, no sign-up.",
     color: "#FFC600",
     photo: {
-      src: "/images/kit/station-on-a-stand.jpg",
-      alt: "Yellow Wattl charging station on a black floor stand on a leafy Sydney street",
-      position: "object-[25%_50%]",
+      src: "/images/kit/station-at-the-bar.jpg",
+      alt: "Two stacked yellow Wattl charging stations full of power banks on a venue table",
     },
   },
   {
@@ -34,7 +33,7 @@ const steps: {
       "A power bank pops out with Lightning, USB-C and Micro-USB cables built in. Keep it with you while you enjoy your night.",
     color: "#38AAD4",
     photo: {
-      src: "/images/kit/power-bank.jpg",
+      src: "/images/kit/power-bank-upright.jpg",
       alt: "Wattl power bank with a native flora design resting on a phone",
     },
   },
