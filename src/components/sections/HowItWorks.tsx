@@ -11,7 +11,7 @@ const steps: {
   title: string;
   description: string;
   color: string;
-  photo: { src: string; alt: string; position?: string };
+  photo: { src: string; alt: string; position?: string; frame?: string };
 }[] = [
   {
     flora: "cockatoo",
@@ -45,9 +45,11 @@ const steps: {
       "Done? Pop it back into any Wattl station, here or at the next bar. You only pay for the time you had it.",
     color: "#F4722B",
     photo: {
-      src: "/images/kit/station-on-a-stand.jpg",
+      src: "/images/kit/station-on-its-stand.jpg",
       alt: "Wattl station on a black floor stand on a leafy Sydney street",
-      position: "object-[50%_20%]",
+      position: "object-[50%_70%]",
+      // Portrait on mobile too, so the stand's "Scan, charge, return" stays in view
+      frame: "aspect-[4/5]",
     },
   },
 ];
@@ -123,7 +125,7 @@ export function HowItWorks() {
                       <p className="flex-1 text-sm leading-relaxed text-brand-black/70" style={{ fontWeight: 600 }}>
                         {step.description}
                       </p>
-                      <div className="relative aspect-[4/3] w-full shrink-0 overflow-hidden rounded-xl border-3 border-brand-black sm:aspect-[4/5] sm:w-[160px]">
+                      <div className={`relative w-full shrink-0 overflow-hidden rounded-xl border-3 border-brand-black sm:w-[160px] ${step.photo.frame ?? "aspect-[4/3] sm:aspect-[4/5]"}`}>
                         <Image
                           src={step.photo.src}
                           alt={step.photo.alt}
