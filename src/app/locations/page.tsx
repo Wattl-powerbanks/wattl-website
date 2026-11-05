@@ -3,13 +3,14 @@ import Image from "next/image";
 import { MapPin } from "lucide-react";
 import { SquigglyDivider } from "@/components/ui/SquigglyDivider";
 import { SuggestLocationForm } from "@/components/forms/SuggestLocationForm";
+import { ChargingVenueCard } from "@/components/ui/ChargingVenueCard";
 import { VenueCard } from "@/components/ui/VenueCard";
-import { liveVenues } from "@/lib/venues";
+import { chargingVenues, liveVenues } from "@/lib/venues";
 
 export const metadata: Metadata = {
   title: "Locations",
   description:
-    "Find a Wattl power bank station near you. Live now at the Newtown Hotel and Botany View Hotel in Newtown, Sydney.",
+    "Find a Wattl power bank station near you. Live now at the Newtown Hotel, Botany View Hotel and Forest Lodge Hotel in Sydney's Inner West.",
 };
 
 export default function LocationsPage() {
@@ -46,9 +47,12 @@ export default function LocationsPage() {
             {liveVenues.map((venue) => (
               <VenueCard key={venue.name} venue={venue} />
             ))}
+            {chargingVenues.map((venue, i) => (
+              <ChargingVenueCard key={i} venue={venue} index={i} />
+            ))}
           </div>
           <p className="mt-10 text-lg text-brand-black/70" style={{ fontWeight: 700 }}>
-            More Inner West venues coming soon.
+            More venues charging up soon.
           </p>
         </div>
       </section>

@@ -16,11 +16,11 @@ export function LiveVenues() {
               textShadow: "3px 3px 0 rgba(26, 26, 26, 0.12)",
             }}
           >
-            Find us on King St<span className="text-brand-black">.</span>
+            Find us in the Inner West<span className="text-brand-black">.</span>
           </h2>
           <p className="mx-auto mb-10 max-w-xl text-lg text-brand-black/70" style={{ fontWeight: 700 }}>
-            Grab a Wattl at one, drop it back at the other. More Inner West
-            venues on the way.
+            Grab a Wattl at one, drop it back at another. More venues
+            charging up in Marrickville.
           </p>
           <div className="mb-10 grid gap-5 sm:grid-cols-2">
             {liveVenues.map((venue) => (

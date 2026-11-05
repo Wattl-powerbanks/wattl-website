@@ -130,11 +130,11 @@ export default function PartnerWithUsPage() {
             Already live at{" "}
             {liveVenues.map((venue, i) => (
               <span key={venue.name}>
-                {i > 0 && " and "}
+                {i > 0 && (i === liveVenues.length - 1 ? " and " : ", ")}
                 <span className="text-brand-blue">{venue.name}</span>
               </span>
-            ))}{" "}
-            in Newtown.{" "}
+            ))}
+            .{" "}
             <Link href="/locations" className="text-brand-blue underline underline-offset-2">
               See venues
             </Link>

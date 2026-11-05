@@ -118,3 +118,33 @@ html {
 .shadow-chunky-orange {
   box-shadow: 5px 5px 0 #F4722B;
 }
+
+/* Charging-up venue teaser: battery fills to --charge, holds, repeats */
+@keyframes chargeUp {
+  0% {
+    width: 0;
+  }
+  60%,
+  100% {
+    width: var(--charge);
+  }
+}
+
+@keyframes boltPulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.charging-fill {
+  width: var(--charge);
+  animation: chargeUp 3s ease-out infinite;
+}
+
+.charging-bolt {
+  animation: boltPulse 1.6s ease-in-out infinite;
+}
