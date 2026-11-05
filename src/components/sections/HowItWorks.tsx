@@ -21,8 +21,9 @@ const steps: {
       "Look for the yellow Wattl station. Scan the QR code with your phone camera, then tap Apple Pay or Google Pay. No app, no sign-up.",
     color: "#FFC600",
     photo: {
-      src: "/images/kit/station.jpg",
-      alt: "Yellow Wattl charging station with a Wattl power bank leaning against it",
+      src: "/images/kit/station-on-a-stand.jpg",
+      alt: "Yellow Wattl charging station on a black floor stand on a leafy Sydney street",
+      position: "object-[25%_50%]",
     },
   },
   {
