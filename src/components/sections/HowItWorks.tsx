@@ -45,9 +45,9 @@ const steps: {
       "Done? Pop it back into any Wattl station, here or at the next bar. You only pay for the time you had it.",
     color: "#F4722B",
     photo: {
-      src: "/images/kit/station-at-the-pub.jpg",
-      alt: "Wattl station on a table in a pub beer garden",
-      position: "object-[85%_50%]",
+      src: "/images/kit/station-on-a-stand.jpg",
+      alt: "Wattl station on a black floor stand on a leafy Sydney street",
+      position: "object-[50%_20%]",
     },
   },
 ];
